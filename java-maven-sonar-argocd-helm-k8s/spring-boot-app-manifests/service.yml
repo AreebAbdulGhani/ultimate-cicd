@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: my-test-app
+  name: test
 spec:
   type: NodePort
   ports:
