@@ -1,7 +1,7 @@
-apiVersion: v1
-kind: Service
+apiVersion: argoproj.io/v1alpha1
+kind: Application
 metadata:
-  name: spring-boot-app-service
+  name: my-test-app
 spec:
   type: NodePort
   ports:
